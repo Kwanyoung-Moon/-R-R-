@@ -28,7 +28,7 @@ knitr::opts_chunk$set(echo = TRUE)
     
 #### ftable()
 ```{r}
-library(dplyr) 
+library(dplyr)
 (ftable_trial <- ftable(Titanic, row.vars = 1:3))
 (ftable_trial2 <- ftable(Titanic, row.vars = 1:2, col.vars = 3))
 ```
